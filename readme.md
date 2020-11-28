@@ -67,6 +67,32 @@ Otras pseudoclases importantes:
 
 ```
 
+## Pseudo-elementos
+Al igual que las pseudo-classes, los pseudo-elementos se añaden a los selectores, pero en cambio, no describen un estado especial sino que, permiten añadir estilos a una parte concreta del documento.
+
+```css
+.parrafo{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.parrafo::before{
+    content: "Antes ";
+    color: red;
+    font-weight: bolder;
+}
+
+.parrafo::after{
+    content: "Despues";
+    color: blue;
+    font-weight: bolder;
+}
+
+.icono-flecha::before{
+    content: url(https://cdn.iconscout.com/icon/free/png-64/right-arrow-1965038-1660431.png);
+    
+}
+```
+
 ## Transitions
 La propiedad transition es una propiedad abreviada de transition-property, transition-duration, transition-timing-function, y transition-delay. Permite definir la transición entre dos estados de un elemento. Hay diferentes estados que pueden ser definidos utilizando pseudo-clases como :hover o :active.
 

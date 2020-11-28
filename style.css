@@ -133,3 +133,25 @@
     }
 }
 
+
+.parrafo{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.parrafo::before{
+    content: "Antes ";
+    color: red;
+    font-weight: bolder;
+}
+
+.parrafo::after{
+    content: "Despues";
+    color: blue;
+    font-weight: bolder;
+}
+
+.icono-flecha::before{
+    content: url(https://cdn.iconscout.com/icon/free/png-64/right-arrow-1965038-1660431.png);
+    
+}
+
