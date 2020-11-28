@@ -50,6 +50,7 @@ Otras pseudoclases importantes:
 - :active
 - :hover
 - :focus
+- :checked
 
 [**Ver más...**](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes)
 
